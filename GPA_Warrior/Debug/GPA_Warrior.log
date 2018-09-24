@@ -1,0 +1,35 @@
+﻿Build started 21/05/2017 14.10.36.
+     1>Project "D:\Kuliah\GPA_Warrior\GPA_Warrior\GPA_Warrior.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GPA_Warrior.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(156): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(163): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(184): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(308): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(328): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\kuliah\gpa_warrior\gpa_warrior\main.cpp(406): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kuliah\GPA_Warrior\Debug\GPA_Warrior.exe" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GPA_Warrior.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Kuliah\GPA_Warrior\Debug\GPA_Warrior.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Kuliah\GPA_Warrior\Debug\GPA_Warrior.lib" /MACHINE:X86 Debug\GPA_Warrior.exe.embed.manifest.res
+         Debug\Letter.obj
+         Debug\Main.obj
+         Debug\Player.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GPA_Warrior.exe.embed.manifest" /manifest Debug\GPA_Warrior.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GPA_Warrior.vcxproj -> D:\Kuliah\GPA_Warrior\Debug\GPA_Warrior.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\GPA_Warrior.unsuccessfulbuild".
+         Touching "Debug\GPA_Warrior.lastbuildstate".
+     1>Done Building Project "D:\Kuliah\GPA_Warrior\GPA_Warrior\GPA_Warrior.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.99
